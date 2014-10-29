@@ -64,8 +64,7 @@
 <link href="http://vantagex.co/wp-content/themes/vantagex/css/style.css" rel="stylesheet" media="screen">
 <!-- <link href="css/style.css" rel="stylesheet" media="screen">--></head>   
 
- <body class="homepage" id="wrapper"><script type='text/javascript' src='http://vantagex.co/wp-content/themes/vantagex/javascript/scripts.min.js'></script>
-
+ <body class="homepage" id="wrapper">
     <div class="wrapper" >
       <header>
         <nav class="navbar navbar-default" role="navigation">
@@ -91,7 +90,9 @@
             var BV = new $.BigVideo({useFlashForFirefox:false},{ambient:true,});
 			BV.init();</script>
 
-          <video id="background-video" class="video-js vjs-default-skin">
+          <video id="background-video" class="video-js vjs-default-skin vjs-big-play-centered video-js-fullscreen"
+  controls preload="auto" autoplay width="auto" height="auto"
+   data-setup='{}'>
             <source src="http://vantagex.co/wp-content/themes/vantagex/videos/homepage-video.mp4" type='video/mp4' />
             <source src="http://vantagex.co/wp-content/themes/vantagex/videos/homepage-video.webm" type='video/webm' />
             <source src="http://vantagex.co/wp-content/themes/vantagex/videos/homepage-video.ogv" type='video/ogg' />
@@ -103,8 +104,8 @@
    <!-- BigVideo -->
 
 
-    <!-- Demo -->
-    <!--<script>
+    <!-- Demo 
+    <script>
 	    $(function() {
             var BV = new $.BigVideo({useFlashForFirefox:false},{ambient:true,});
 			BV.init();
@@ -114,8 +115,8 @@
                 { type: "video/ogg",  src: "http://vantagex.co/wp-content/themes/vantagex/videos/homepage-video.ogv" }
              ]);
 	    });
-    </script>-->
-
+    </script>
+-->
 
 
           <div class="shadow"></div>
@@ -299,8 +300,8 @@
           </section>
         </div>
       </footer>
-    </div><
-        <script type='text/javascript'>
+    </div>
+  <script type='text/javascript'>
 /* <![CDATA[ */
 var VantageXSettings = {"theme_url":"http:\/\/vantagex.co\/wp-content\/themes\/vantagex"};
 /* ]]> */
