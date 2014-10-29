@@ -61,6 +61,15 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/6.2.0/jquery.nouislider.min.js"></script>
 <script type="text/javascript" src="https://raw.githubusercontent.com/burningtongue/imagesloaded/master/imagesloaded.js"></script>
      <script type="text/javascript" src="https://raw.githubusercontent.com/burningtongue/BigVideo.js/master/lib/bigvideo.js"></script>
+
+
+   <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+     <link href="//vjs.zencdn.net/4.9/video-js.css" rel="stylesheet">
+     <script src="//vjs.zencdn.net/4.9/video.js"></script>
+     <style>.video-js {padding-top: 56.25%}
+.vjs-fullscreen {padding-top: 0px}</style>
+
 <link href="http://vantagex.co/wp-content/themes/vantagex/css/style.css" rel="stylesheet" media="screen">
 <!-- <link href="css/style.css" rel="stylesheet" media="screen">--></head>   
 
@@ -88,7 +97,7 @@
         <div class="big-video">
 	    <script>	    $(function() {
             var BV = new $.BigVideo({useFlashForFirefox:false},{ambient:true,});
-			BV.init();</script>
+		//	BV.init();</script>
 
           <video id="background-video" class="video-js vjs-default-skin vjs-big-play-centered video-js-fullscreen"
   controls preload="auto" autoplay width="auto" height="auto"
