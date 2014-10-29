@@ -86,7 +86,9 @@
         </nav>
         <div class="loader"></div>
         <div class="big-video">
-
+	    <script>	    $(function() {
+            var BV = new $.BigVideo({useFlashForFirefox:false},{ambient:true,});
+			BV.init();</script>
 
           <video id="background-video" class="video-js vjs-default-skin">
             <source src="http://vantagex.co/wp-content/themes/vantagex/videos/homepage-video.mp4" type='video/mp4' />
